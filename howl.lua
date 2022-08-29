@@ -7612,139 +7612,139 @@ scrSoul = {
   end
 yellow = {
     {
-        "[🌀]Teleport",
+        "Teleport",
         content = {
-            "[🌀]Magic Teleport",
-            "[💾]Saved Locations",
-            "[⬆️]Goto List",
-            "[🧭]Out Of Borders",
-            "[⬆️]Breach Walls",
-            "[↗️]Breach Roofs",
-            "[⬇️]Breach Grounds",
-            "[📝]Manual Coordinates",
-            "[🗄]Copy coordinate",
-            "[📌]Pin Position",
-            "[📌]Pin Y Coordinate",
+            "Magic Teleport",
+            "Saved Locations",
+            "Goto List",
+            "Out Of Borders",
+            "Breach Walls",
+            "Breach Roofs",
+            "Breach Grounds",
+            "Manual Coordinates",
+            "Copy coordinate",
+            "Pin Position",
+            "Pin Y Coordinate",
         }, 
     },
     {
-        "[🏃🏻‍♂️] Run",
+        "Run",
         content = {
-            "[🕯]Auto Candle Run",
-            "[⭐]Auto Star Run",
-            "[🕯]Semi Candle Run",
-            "[⭐]Semi Star Run",
-            "[🌋]Eden Assistance",
-            "[🔖]Unlock Seasonal Quests",
-            "[ℹ️]Running Instructions",
+            "Auto Candle Run",
+            "Auto Collect WL",
+            "Semi Candle Run",
+            "Semi Collect WL",
+            "Eden Assist",
+            "Open Seasonal Quests",
+            "Panduan",
         },
     },
     {
-        "[🔥]Burn",
+        "Auto Burn",
     },
     {
-        "[🀄️]Absorb All",
+        "Absorb Wax",
     },
     {
-        "[🌕]Wing Energy",
+        "Wing Energy",
     },
     {
-        "‍[️🧙]️Magic",
+        "️Magic",
         content = {
-            "[🔮]No Sparkles spells",
-            "[✨]Sparkle spells",
-            "[🔁]Auto Capes",
+            "No Sparkles Effect",
+            "Sparkle Effect",
+            "Random",
             "[❌]Remove All",
         },
     },
     {
-        "[🦚]Wing",
+        "Wing",
         content = {
-            "[🌟]Wing Count",
-            "[🌟]Drop Wing Buffs",
-            "[🃏]Cape Trick",
-            "[🃏]Invisible Cape",
-            "[🃏]Remove Cape",
-            "[🚀]Fast Flap",
+            "Wing Count",
+            "Drop Wing",
+            "Cape Trick",
+            "Invisible Cape",
+            "Remove Cape",
+            "Jet Mode",
         },
     },
     {
-        "[🔫]Trolls",
+        "Troll",
         content = {
-            "[🧨]Force Light",
-            "[✨]Spam Magic",
-            "[✨]Shouts Loop",
+            "Bright Light",
+            "Spam Sparkle",
+            "Honk Loop",
         },                                     
     },
     {
-        "[🗃]Mode Menu",
+        "Mode Menu",
         content = {
             {
-                "[👦🏼]Avatar Modes",
+                "Character Modes",
                 content = {
-                    "[🏇]Running Enhancement",
-                    "[🪂]Jumping Enhancement",
-                    "[🏊🏻‍♂️]Diving Enchancement",
-                    "[⚠️]Remove Movement Restriction",
-                    "[🏃🏻‍♂️]Delay Effect",
-                    "[🛫]Always Fly",
-                    "[🛴]Scooter",
-                    "[📣]Calls",
+                    "Fast Run",
+                    "High Jump",
+                    "Fast Swim",
+                    "No Movement Block",
+                    "Delay",
+                    "Always Fly",
+                    "Ghost Walk",
+                    "Calls",
                 },
             },
             {
-                "[📸]Camera Modes",
+                "Camera",
                 content = {
-                    "[🎥]Record Shared Memory",
-                    "[📸]ScreenShot Resolution",
-                    "[🖥]Realistic Graphics",
-                    "[🌁]Valley Filter",
-                    "[🔆]Brightness",
+                    "Record Shared Memory",
+                    "Resolution",
+                    "HD Graphics",
+                    "Filter",
+                    "Brightness",
                 },
             },
             {
-                "[🗺]World Modes",
+                "World",
                 content = {
-                    "[💨]Remove Wind[Method 1]",
-                    "[💨]Remove Wind[Method 2]",
-                    "[☁️]Remove Clouds",
-                    "[🌊]Remove Home Water",
-                    "[🚪]Remove Portals",
-                    "[⏲]Game Speed",
+                    "Remove Wind 1",
+                    "Remove Wind 2",
+                    "Remove Clouds",
+                    "Remove Water (Home)",
+                    "Remove Portals",
+                    "Game Speed",
                 },
             },
             {
-                "[🖥]UI Modes",
+                "UI (User Interface)",
                 content = {
-                    "[🧸]Icons & Borders Size",
-                    "[🔘]Transparent Ui",
-                    "[👒]Unlock Clothes and Emotes",
-                    "[❤️]Unlock Friendly Nodes",
-                    "[🛸]Unlimited Fireworks",                 
-                    "[📡]Single Player Mode",
+                    "Icons & Borders Size",
+                    "Transparent Ui",
+                    "Unlock Clothes+Emotes",
+                    "Unlock Friend Nodes",
+                    "Unlimited Fireworks",                 
+                    "Private Server",
                 },
             },          
         },  
     },
     {
-        "[🧺]Show Closet",
+        "Closet Anywhere",
         content = {
-            "[👖]Pants",
-            "[🎭]Masks",
-            "[👱]️Hairs",
-            "[🦚]Capes",
-            "[🎒]Props",
+            "Pant",
+            "Mask",
+            "Hair",
+            "Cape",
+            "Prop",
         },                                     
     },
     {
-        "[🎴]Move Things",
+        "Move Things",
         content = {
-            "[🕯]Candles Snake",
-            "[🪆]Collect NPCs",
+            "Candles Snake",
+            "Absorb Spirit",
         },
     },
     {
-        "[⚙]Settings",
+        "Settings",
         content = {
 
         },
@@ -7752,7 +7752,7 @@ yellow = {
 }
 magics = {
     {
-        "[👖]","Pants Spells",
+        "","Pants Spells",
         content = {
             {
                 "Sword", 
@@ -7769,7 +7769,7 @@ magics = {
         },
     },
     {
-        "[🎭]","Masks Spells",
+        "","Masks Spells",
         content = {
             {
                 "Weasel", 
@@ -7814,7 +7814,7 @@ magics = {
         },
     },
     {
-        "[👱]️","Head Spells",
+        "","Head Spells",
         content = {
             {
                 "Rainbow Flower", 
@@ -7959,7 +7959,7 @@ magics = {
         },
     },
     {
-        "[🦚]","Capes Spells",
+        "","Capes Spells",
         content = {
             {
                 "Earth Day Cape", 
@@ -8064,7 +8064,7 @@ magics = {
         },
     },
     {
-        "[🎒]","Props Spells",
+        "","Props Spells",
         content = {
             {
                 "Lantern", 
@@ -8182,7 +8182,7 @@ magics = {
         },
     },
     {
-        "[🔰]","Other Spells",
+        "","Other Spells",
         content = {
             {
                 "Chibi Height",
@@ -8397,7 +8397,7 @@ magics = {
 }
 world = {
     {
-        "[🏝]","Isle of Dawn",
+        "","Isle of Dawn",
         content = {
             {
                 "Isle",
@@ -8426,7 +8426,7 @@ world = {
         },
     },
     {
-        "[⛰]","Daylight Prairie",
+        "","Daylight Prairie",
         content = {
             {
                 "Butterfly Fields",
@@ -8460,7 +8460,7 @@ world = {
         },
     },
     {
-        "[🏕]","Hidden Forest",
+        "","Hidden Forest",
         content = {
             {
                 "Hidden Forest",
@@ -8497,7 +8497,7 @@ world = {
         },
     },
     {
-        "[🗻]","Valley of Triumph",
+        "","Valley of Triumph",
         content = {
             {
                 "Valley",
@@ -8546,7 +8546,7 @@ world = {
         },
     },
     {
-        "[🏜]","Golden Wasteland",
+        "","Golden Wasteland",
         content = {
             {
                 "Social Space",
@@ -8591,7 +8591,7 @@ world = {
         },
     },
     {
-        "[🛕]","Vault of Knowledge",
+        "","Vault of Knowledge",
         content = {
             {
                 "Vault",
@@ -8640,7 +8640,7 @@ world = {
         },
     },
     {
-        "[🌋]","Storm",
+        "","Storm",
         content = {
             {
                 "Storm Gate",
@@ -9196,7 +9196,7 @@ function runType()
         end
     elseif tear == eye[2] then
         if gg.alert([[
-            [☣️]Do you want to auto Star Run?
+            [☣️]Do you want to auto WL Run?
             It is more recommended to use AutoWax for runnung
             to avoid using too much magic while teleporting]],
             'Go for it', 'Never mind') == eye[1] then
