@@ -11933,7 +11933,7 @@ function startUpTrigger()
   gg.setVisible(false)
   if not pcall(loadconfigs) then
       kj.post({
-    [[[☣️]Your Configs are corrupted.
+    [[[⚠️]Your Configs are corrupted.
     ---------------------------------------------
       The script will reset them
       Your old Configs will be saved to your Download folder.
