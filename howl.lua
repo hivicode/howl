@@ -1,18 +1,12 @@
 ---@diagnostic disable: lowercase-global, undefined-global
 --[[
-    These offsets are not to be taken and added to other scripts (; so find your own stuff
-    we spent ages finding and learning to make something that you can have fun with
-    so don't abuse the makers :D
-    enjoy..
+    Howl 1.0 is free
 ]]
 --[[
     ----------------------------------------------------------------------------
-    Howl is a free open source script to use and read and to learn from.
-    You are allowed to get inspiration from the way it is written but not
-    to copy the code as it is written from zero by exmachina.
-    Also selling it will get you in troubles so be careful.
+    Howl is an open source script by ExMachina
     ----------------------------------------------------------------------------
-    If you have any hacks that you want to send, https://discord.gg/2AHfEQJggX
+    If you have any hacks that you want to send, https://wa.me/88226198775
     ----------------------------------------------------------------------------
 ]]
 stime = 3500
@@ -29,7 +23,7 @@ sky = {
     },
     beta = {
         package = 'com.tgc.sky.android.test.gold',
-        version = 198000
+        version = 199539
     }
 }
 configs = {
@@ -8441,11 +8435,11 @@ world = {
                 "Prairie_Island"
             },
             {
-                "Cave",
+                "Prairie Cave",
                 "Prairie_Cave"
             },
             {
-                "Village",
+                "Prairie Village",
                 "Prairie_Village"
             },
             {
@@ -8467,15 +8461,15 @@ world = {
                 "Rain"
             },
             {
-                "Raining Forest",
+                "Rain Forest",
                 "RainForest"
             },
             {
-                "Shelter",
+                "Rain Shelter",
                 "RainShelter"
             },
             {
-                "Cave",
+                "Rain Cave",
                 "Rain_Cave"
             },
             {
@@ -8483,11 +8477,11 @@ world = {
                 "RainMid"
             },
             {
-                "Assembly Base",
+                "Assembly Basecamp",
                 "Rain_BaseCamp"
             },
             {
-                "Wind Pathes",
+                "Wind Path",
                 "Skyway"
             },
             {
@@ -8504,7 +8498,7 @@ world = {
                 "Sunset"
             },
             {
-                "Sliding Race",
+                "Slide Race",
                 "SunsetRace"
             },
             {
@@ -8512,19 +8506,19 @@ world = {
                 "Sunset_Citadel"
             },
             {
-                "Flying Race",
+                "Fly Race",
                 "Sunset_FlyRace"
             },
             {
-                "Dream's Village",
+                "Dreams Village",
                 "SunsetVillage"
             },
             {
-                "Yeti Cave",
+                "Hermit Valley",
                 "Sunset_YetiPark"
             },
             {
-                "Performance Theater",
+                "Theater",
                 "Sunset_Theater"
             },
             {
@@ -8553,7 +8547,7 @@ world = {
                 "DuskStart"
             },
             {
-                "Nintendo Park",
+                "Nintendo Space",
                 "Nintendo_CandleSpace"
             },
             {
@@ -8561,7 +8555,7 @@ world = {
                 "Dusk_Triangle"
             },
             {
-                "Abyss Deep Water",
+                "Abyss Deep",
                 "Dusk_TriangleEnd"
             },
             {
@@ -8577,11 +8571,11 @@ world = {
                 "DuskGraveyard"
             },
             {
-                "Sinking Ship",
+                "Shipwreck",
                 "Dusk_CrabField"
             },
             {
-                "Krills Field",
+                "Battlefield",
                 "DuskMid"
             },
             {
@@ -8598,11 +8592,11 @@ world = {
                 "Night"
             },
             {
-                "Archives",
+                "Wreck Library",
                 "NightArchive"
             },
             {
-                "Mantas Field",
+                "Floor 4-6",
                 "Night2"
             },
             {
@@ -8610,7 +8604,7 @@ world = {
                 "NightDesert"
             },
             {
-                "JellyFish Beach",
+                "Night Beach",
                 "NightDesert_Beach"
             },
             {
@@ -8622,7 +8616,7 @@ world = {
                 "Night_InfiniteDesert"
             },
             {
-                "Planets",
+                "Planet",
                 "NightDesert_Planets"
             },
             {
@@ -8634,7 +8628,7 @@ world = {
                 "TGCOffice"
             },
             {
-                "Thunder",
+                "Night End",
                 "NightEnd"
             }
         },
@@ -8643,11 +8637,11 @@ world = {
         "","Storm",
         content = {
             {
-                "Storm Gate",
+                "Eden Start",
                 "StormStart"
             },
             {
-                "Krills Field",
+                "Eden 2",
                 "Storm"
             },
             {
@@ -8655,11 +8649,11 @@ world = {
                 "StormEnd"
             },
             {
-                "Rebirth",
+                "After Death",
                 "OrbitMid"
             },
             {
-                "Ancestors Galaxy",
+                "Spirit Galaxy",
                 "OrbitEnd"
             },
             {
@@ -9133,7 +9127,7 @@ function farm(type)
 end
  do
    do
-    back = {"[🔙]Back", "[👋]End" }
+    back = {"[🔙]Back", "[👋🏻]Exit" }
     table.insert(yellowCry, back[2])
   end
 end
