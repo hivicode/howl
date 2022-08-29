@@ -9,7 +9,7 @@
     ----------------------------------------------------------------------------
     Hellboy is a free open source script to use and read and to learn from.
     You are allowed to get inspiration from the way it is written but not
-    to copy the code as it is written from zero by me 'Kiojeen'.
+    to copy the code as it is written from zero by exmachina.
     Also selling it will get you in troubles so be careful.
     ----------------------------------------------------------------------------
     If you have any hacks that you want to send, https://discord.gg/2AHfEQJggX
@@ -9226,7 +9226,7 @@ function frac()
     if gg.MAP_ ~= 0xF05BEC0 then
         mobCloset = change_1
     end
- end dontRemove = "BY: Kiojeen"
+ end dontRemove = "love you vi"
 function hold()
     local hG = gg
     hG.toast("Click on the GG icon to resume")
@@ -9295,7 +9295,7 @@ function pStatueLocker()
         SkidLock = skidLevel statue = {}
          statue.limit = #scrSoul[level_Cords].AK_Runner
           statue.trace = 0
-         dontRemove = 'By: Kiojeen'
+         dontRemove = 'By: bi'
         statue.realm = level_Cords
       end
     end
@@ -9381,7 +9381,7 @@ function pStarLocker()
         SkidLock = skidLevel star = {}
          star.limit = #scrSoul[level_Cords].S_Runner
           star.trace = 0
-         dontRemove = 'By: Kiojeen'
+         dontRemove = 'By: bi'
         star.realm = level_Cords
       end
     end
@@ -9474,7 +9474,7 @@ end
             sflag = false
             type_ = "c"
             crunMenu[9] = nil
-        end  dontRemove = 'By: Kiojeen'
+        end  dontRemove = 'By: bi'
           if sflag == false then
               if cflag == false then
                 type_ = 'back'
@@ -10159,7 +10159,7 @@ end
 function rwind()
     windlist = {}
     for i = 0, 100 do
-      do --\\By: Kiojeen
+      do --\\By: bi
         do --\\Ca-O Main.lua
           for d = 1, 50 do
             table.insert(windlist, {
@@ -10755,7 +10755,7 @@ function srun_add()
           star.trace = star.trace + eye[1] 
         end
         pcall(setPosition, scrSoul[star.realm].S_Runner[star.trace])
-        dontRemove = "By: Kiojeen"
+        dontRemove = "By: bi"
     end
 end
 function srun_sub()
@@ -10766,7 +10766,7 @@ function srun_sub()
             star.trace = star.trace - eye[1] 
         end
         pcall(setPosition, scrSoul[star.realm].S_Runner[star.trace])
-        dontRemove = "By: Kiojeen"
+        dontRemove = "By: bi"
     end 
 end
 function statue_add()
@@ -10777,7 +10777,7 @@ function statue_add()
             statue.trace = statue.trace + eye[1] 
         end
         pcall(setPosition, scrSoul[statue.realm].AK_Runner[statue.trace])
-        dontRemove = "By: Kiojeen"
+        dontRemove = "By: bi"
     end   
 end
 function statue_sub()
@@ -10788,7 +10788,7 @@ function statue_sub()
           statue.trace = statue.trace - eye[1] 
         end
         pcall(setPosition, scrSoul[statue.realm].AK_Runner[statue.trace])
-        dontRemove = "By: Kiojeen"
+        dontRemove = "By: bi"
     end 
 end
 function bwall(bdis)
@@ -10838,7 +10838,7 @@ function magicList()
             for i = 1, configs.sockets do
                 setspell(0, i)
             end
-        end dontRemove = "BY: Kiojeen" 
+        end dontRemove = "BY: bi" 
     elseif tear == eye[1] or tear == eye[2] then
         if tear == 1 then 
             spark = 360
@@ -10869,7 +10869,7 @@ function magicList()
                 for i, v in ipairs(msocket) do
                     setspell(0, i)
                 end
-            end dontRemove = "BY: Kiojeen" 
+            end dontRemove = "BY: love you vi" 
         elseif tear == configs.sockets + eye[2] then magicList()
         elseif tear ~= eye[65] then
             socket = tear 
