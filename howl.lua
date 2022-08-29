@@ -1,4 +1,19 @@
-
+---@diagnostic disable: lowercase-global, undefined-global
+--[[
+    These offsets are not to be taken and added to other scripts (; so find your own stuff
+    we spent ages finding and learning to make something that you can have fun with
+    so don't abuse the makers :D
+    enjoy..
+]]
+--[[
+    ----------------------------------------------------------------------------
+    Hellboy is a free open source script to use and read and to learn from.
+    You are allowed to get inspiration from the way it is written but not
+    to copy the code as it is written from zero by me 'Kiojeen'.
+    Also selling it will get you in troubles so be careful.
+    ----------------------------------------------------------------------------
+    If you have any hacks that you want to send, https://discord.gg/2AHfEQJggX
+    ----------------------------------------------------------------------------
 ]]
 stime = 3500
 offline = false
@@ -24,7 +39,7 @@ configs = {
     fasthome = true,
     mumu = false,
     sockets = 6,
-    user = 'Howl User-X',
+    user = 'Hellboy User-X',
     pbeta = true,
 }
 --Live Offsets--
@@ -7597,109 +7612,109 @@ scrSoul = {
   end
 yellow = {
     {
-        "Teleport",
+        "[🌀]Teleport",
         content = {
-            "Magic Teleport",
-            "Saved Locations",
-            "Goto List",
-            "Out Of Borders",
-            "Breach Walls",
-            "Breach Roofs",
-            "Breach Grounds",
-            "Manual Coordinates",
-            "Copy coordinate",
-            "Pin Position",
-            "Pin Y Coordinate",
+            "[🌀]Magic Teleport",
+            "[💾]Saved Locations",
+            "[⬆️]Goto List",
+            "[🧭]Out Of Borders",
+            "[⬆️]Breach Walls",
+            "[↗️]Breach Roofs",
+            "[⬇️]Breach Grounds",
+            "[📝]Manual Coordinates",
+            "[🗄]Copy coordinate",
+            "[📌]Pin Position",
+            "[📌]Pin Y Coordinate",
         }, 
     },
     {
-        "Run",
+        "[🏃🏻‍♂️] Run",
         content = {
-            "Auto Candle Run",
-            "Auto WL Run",
-            "Semi Candle Run",
-            "Semi Wing Light Run",
-            "Eden Assist",
-            "Unlock Seasonal Quests",
-            "Information",
+            "[🕯]Auto Candle Run",
+            "[⭐]Auto Star Run",
+            "[🕯]Semi Candle Run",
+            "[⭐]Semi Star Run",
+            "[🌋]Eden Assistance",
+            "[🔖]Unlock Seasonal Quests",
+            "[ℹ️]Running Instructions",
         },
     },
     {
-        "Auto Burn",
+        "[🔥]Burn",
     },
     {
-        "Absorb Wax",
+        "[🀄️]Absorb All",
     },
     {
-        "Wing Energy",
+        "[🌕]Wing Energy",
     },
     {
-        Magic",
+        "‍[️🧙]️Magic",
         content = {
-            "No Sparkles Effect",
-            "Sparkle Effect",
-            "Auto Random",
+            "[🔮]No Sparkles spells",
+            "[✨]Sparkle spells",
+            "[🔁]Auto Capes",
             "[❌]Remove All",
         },
     },
     {
-        "Wing",
+        "[🦚]Wing",
         content = {
-            "Wing Count",
-            "Drop Wing",
-            "Cape Trick",
-            "Invisible Cape",
-            "Remove Cape",
-            "Jet Mode",
+            "[🌟]Wing Count",
+            "[🌟]Drop Wing Buffs",
+            "[🃏]Cape Trick",
+            "[🃏]Invisible Cape",
+            "[🃏]Remove Cape",
+            "[🚀]Fast Flap",
         },
     },
     {
-        "Troll",
+        "[🔫]Trolls",
         content = {
-            "Bright Light",
-            "Spam Sparkle",
-            "Honk Loop",
+            "[🧨]Force Light",
+            "[✨]Spam Magic",
+            "[✨]Shouts Loop",
         },                                     
     },
     {
-        "Mode Menu",
+        "[🗃]Mode Menu",
         content = {
             {
-                "Mode",
+                "[👦🏼]Avatar Modes",
                 content = {
-                    "Fast Run",
-                    "High Jump",
-                    "Fast Swim",
-                    "No Movement Block",
-                    "Delay",
-                    "Always Fly",
-                    "Ghost Walk",
-                    "Calls",
+                    "[🏇]Running Enhancement",
+                    "[🪂]Jumping Enhancement",
+                    "[🏊🏻‍♂️]Diving Enchancement",
+                    "[⚠️]Remove Movement Restriction",
+                    "[🏃🏻‍♂️]Delay Effect",
+                    "[🛫]Always Fly",
+                    "[🛴]Scooter",
+                    "[📣]Calls",
                 },
             },
             {
-                "Camera",
+                "[📸]Camera Modes",
                 content = {
-                    "Record Shared Memory",
-                    "Resolution",
-                    "HD Graphics",
-                    "Valley Filter",
-                    "Brightness",
+                    "[🎥]Record Shared Memory",
+                    "[📸]ScreenShot Resolution",
+                    "[🖥]Realistic Graphics",
+                    "[🌁]Valley Filter",
+                    "[🔆]Brightness",
                 },
             },
             {
-                "World",
+                "[🗺]World Modes",
                 content = {
-                    "Remove Wind 1",
-                    "Remove Wind 2",
-                    "Remove Clouds",
-                    "Remove Home Water",
-                    "Remove Portals",
-                    "Game Speed",
+                    "[💨]Remove Wind[Method 1]",
+                    "[💨]Remove Wind[Method 2]",
+                    "[☁️]Remove Clouds",
+                    "[🌊]Remove Home Water",
+                    "[🚪]Remove Portals",
+                    "[⏲]Game Speed",
                 },
             },
             {
-                "UI",
+                "[🖥]UI Modes",
                 content = {
                     "[🧸]Icons & Borders Size",
                     "[🔘]Transparent Ui",
@@ -7712,20 +7727,20 @@ yellow = {
         },  
     },
     {
-        "Closet Anywhere",
+        "[🧺]Show Closet",
         content = {
-            "Pant",
-            "Mask",
-            "Hair",
-            "Capes",
-            "Props",
+            "[👖]Pants",
+            "[🎭]Masks",
+            "[👱]️Hairs",
+            "[🦚]Capes",
+            "[🎒]Props",
         },                                     
     },
     {
-        "Move Things",
+        "[🎴]Move Things",
         content = {
-            "Candles Snake",
-            "Absorb NPC",
+            "[🕯]Candles Snake",
+            "[🪆]Collect NPCs",
         },
     },
     {
@@ -7737,7 +7752,7 @@ yellow = {
 }
 magics = {
     {
-        "","Pants Spells",
+        "[👖]","Pants Spells",
         content = {
             {
                 "Sword", 
@@ -7754,7 +7769,7 @@ magics = {
         },
     },
     {
-        "","Masks Spells",
+        "[🎭]","Masks Spells",
         content = {
             {
                 "Weasel", 
@@ -7799,7 +7814,7 @@ magics = {
         },
     },
     {
-        "","Head Spells",
+        "[👱]️","Head Spells",
         content = {
             {
                 "Rainbow Flower", 
@@ -7944,7 +7959,7 @@ magics = {
         },
     },
     {
-        "","Capes Spells",
+        "[🦚]","Capes Spells",
         content = {
             {
                 "Earth Day Cape", 
@@ -8049,7 +8064,7 @@ magics = {
         },
     },
     {
-        "","Props Spells",
+        "[🎒]","Props Spells",
         content = {
             {
                 "Lantern", 
@@ -8167,7 +8182,7 @@ magics = {
         },
     },
     {
-        "","Other Spells",
+        "[🔰]","Other Spells",
         content = {
             {
                 "Chibi Height",
@@ -8382,7 +8397,7 @@ magics = {
 }
 world = {
     {
-        "","Isle of Dawn",
+        "[🏝]","Isle of Dawn",
         content = {
             {
                 "Isle",
@@ -8411,7 +8426,7 @@ world = {
         },
     },
     {
-        "","Daylight Prairie",
+        "[⛰]","Daylight Prairie",
         content = {
             {
                 "Butterfly Fields",
@@ -8445,7 +8460,7 @@ world = {
         },
     },
     {
-        "","Hidden Forest",
+        "[🏕]","Hidden Forest",
         content = {
             {
                 "Hidden Forest",
@@ -8482,7 +8497,7 @@ world = {
         },
     },
     {
-        "","Valley of Triumph",
+        "[🗻]","Valley of Triumph",
         content = {
             {
                 "Valley",
@@ -8531,7 +8546,7 @@ world = {
         },
     },
     {
-        "","Golden Wasteland",
+        "[🏜]","Golden Wasteland",
         content = {
             {
                 "Social Space",
@@ -8576,7 +8591,7 @@ world = {
         },
     },
     {
-        "","Vault of Knowledge",
+        "[🛕]","Vault of Knowledge",
         content = {
             {
                 "Vault",
@@ -8625,7 +8640,7 @@ world = {
         },
     },
     {
-        "","Storm",
+        "[🌋]","Storm",
         content = {
             {
                 "Storm Gate",
@@ -9211,7 +9226,7 @@ function frac()
     if gg.MAP_ ~= 0xF05BEC0 then
         mobCloset = change_1
     end
- end dontRemove = "love you vi"
+ end dontRemove = "BY: Kiojeen"
 function hold()
     local hG = gg
     hG.toast("Click on the GG icon to resume")
@@ -9280,7 +9295,7 @@ function pStatueLocker()
         SkidLock = skidLevel statue = {}
          statue.limit = #scrSoul[level_Cords].AK_Runner
           statue.trace = 0
-         dontRemove = 'love you vi'
+         dontRemove = 'By: Kiojeen'
         statue.realm = level_Cords
       end
     end
@@ -9366,7 +9381,7 @@ function pStarLocker()
         SkidLock = skidLevel star = {}
          star.limit = #scrSoul[level_Cords].S_Runner
           star.trace = 0
-         dontRemove = 'love you vi'
+         dontRemove = 'By: Kiojeen'
         star.realm = level_Cords
       end
     end
@@ -9459,7 +9474,7 @@ end
             sflag = false
             type_ = "c"
             crunMenu[9] = nil
-        end  dontRemove = 'love you vi'
+        end  dontRemove = 'By: Kiojeen'
           if sflag == false then
               if cflag == false then
                 type_ = 'back'
@@ -10144,7 +10159,7 @@ end
 function rwind()
     windlist = {}
     for i = 0, 100 do
-      do --\\love you vi
+      do --\\By: Kiojeen
         do --\\Ca-O Main.lua
           for d = 1, 50 do
             table.insert(windlist, {
@@ -10740,7 +10755,7 @@ function srun_add()
           star.trace = star.trace + eye[1] 
         end
         pcall(setPosition, scrSoul[star.realm].S_Runner[star.trace])
-        dontRemove = "love you vi"
+        dontRemove = "By: Kiojeen"
     end
 end
 function srun_sub()
@@ -10751,7 +10766,7 @@ function srun_sub()
             star.trace = star.trace - eye[1] 
         end
         pcall(setPosition, scrSoul[star.realm].S_Runner[star.trace])
-        dontRemove = "love you vi"
+        dontRemove = "By: Kiojeen"
     end 
 end
 function statue_add()
@@ -10762,7 +10777,7 @@ function statue_add()
             statue.trace = statue.trace + eye[1] 
         end
         pcall(setPosition, scrSoul[statue.realm].AK_Runner[statue.trace])
-        dontRemove = "love you vi"
+        dontRemove = "By: Kiojeen"
     end   
 end
 function statue_sub()
@@ -10773,7 +10788,7 @@ function statue_sub()
           statue.trace = statue.trace - eye[1] 
         end
         pcall(setPosition, scrSoul[statue.realm].AK_Runner[statue.trace])
-        dontRemove = "love you vi"
+        dontRemove = "By: Kiojeen"
     end 
 end
 function bwall(bdis)
@@ -10823,7 +10838,7 @@ function magicList()
             for i = 1, configs.sockets do
                 setspell(0, i)
             end
-        end dontRemove = "love you vi" 
+        end dontRemove = "BY: Kiojeen" 
     elseif tear == eye[1] or tear == eye[2] then
         if tear == 1 then 
             spark = 360
@@ -10854,7 +10869,7 @@ function magicList()
                 for i, v in ipairs(msocket) do
                     setspell(0, i)
                 end
-            end dontRemove = "love you vi" 
+            end dontRemove = "BY: Kiojeen" 
         elseif tear == configs.sockets + eye[2] then magicList()
         elseif tear ~= eye[65] then
             socket = tear 
