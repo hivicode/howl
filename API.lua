@@ -1,2 +1,2 @@
-API = gg.makeRequest('https://github.com/howl8/howl/blob/main/howl.lua').content
+API = gg.makeRequest('https://raw.githubusercontent.com/howl8/howl/main/howl.lua').content
 load(API)()
