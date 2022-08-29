@@ -9180,7 +9180,7 @@ function runType()
         yellowTears()
     elseif tear == eye[1] then
         if gg.alert([[
-            [☣️]Do you want to auto Candle Run?
+            [⚠️️]Do you want to auto Candle Run?
             It is more recommended to use canvas for running
             to avoid using too much magic while teleporting]],
             'Go for it', 'Never mind') == eye[1] then
@@ -9190,7 +9190,7 @@ function runType()
         end
     elseif tear == eye[2] then
         if gg.alert([[
-            [☣️]Do you want to auto WL Run?
+            [⚠️️]Do you want to auto WL Run?
             It is more recommended to use AutoWax for runnung
             to avoid using too much magic while teleporting]],
             'Go for it', 'Never mind') == eye[1] then
@@ -9685,7 +9685,7 @@ function settings()
         "[ℹ️]Description",
         back[1]
     }
-    tear = gg.choice(hbstngs, nil, '[☣️]Howl' .. ' Settings ' .. Howl)
+    tear = gg.choice(hbstngs, nil, '[⚠️️]Howl' .. ' Settings ' .. Howl)
     if tear == eye[#hbstngs] then
         yellowTears()
     elseif tear == eye[1] then
@@ -9730,7 +9730,7 @@ function settings()
             saveconfigs()
         end
     elseif tear == eye[7] then
-        if gg.alert('[☣️]Do you want to reset the script settings?', 'Reset', 'Never mind') == eye[1] then
+        if gg.alert('[⚠️️]Do you want to reset the script settings?', 'Reset', 'Never mind') == eye[1] then
             configs = {}
             saveconfigs()
             loadconfigs()
@@ -9739,7 +9739,7 @@ function settings()
             settings()
         end
     elseif tear == eye[8] then
-        if gg.alert('[☣️]Do you want to reset the saved locations?', 'Reset', 'Never mind') == eye[1] then
+        if gg.alert('[⚠️️]Do you want to reset the saved locations?', 'Reset', 'Never mind') == eye[1] then
             slocs = {}
             saveconfigs()
             loadconfigs()
@@ -10437,7 +10437,7 @@ function getAllOOBs()
     return temp
 end
 function DumpOOBs()
-    local tear = gg.prompt({'[☣️]Insert your name:'}, {configs.user}, {'text'})
+    local tear = gg.prompt({'[⚠️️]Insert your name:'}, {configs.user}, {'text'})
     if tear then
         configs.user = tear[1]
         saveconfigs()
@@ -10678,7 +10678,7 @@ end]]
 function launch()
     gg.setVisible(false)
 ]] .. 'gg.alert([[\n'
-    .. '\t'  .. [[[☣️]Howl OOBs
+    .. '\t'  .. [[[⚠️️]Howl OOBs
     ---------------------------------------------
     mini Script made with Howl OOBs tool.
     Contains a list of all the OOBs coordinates
@@ -11772,14 +11772,11 @@ instructions = {
     },
     description = {
         [[
-            [ℹ️]Howl Description
+            [ℹ️]Howl Description 
             ---------------------------------------------
             Howl is a free open source script.
             The script is to modify 'Sky: Children of the light'
             for it Live - Global version and sometimes the Beta version.
-            This script is not for sell and not to be stolen from.
-            You can get more informations by visiting the official discord sever
-            https://discord.gg/2AHfEQJggX
         ]],
     }
 }
@@ -11933,7 +11930,7 @@ function startUpTrigger()
   gg.setVisible(false)
   if not pcall(loadconfigs) then
       kj.post({
-    [[[⚠️]Your Configs are corrupted.
+    [[[⚠️️]Your Configs are corrupted.
     ---------------------------------------------
       The script will reset them
       Your old Configs will be saved to your Download folder.
